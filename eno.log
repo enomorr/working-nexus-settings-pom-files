@@ -1,0 +1,469 @@
+[1mApache Maven 3.6.3[m
+Maven home: /usr/share/maven
+Java version: 11.0.19, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.19.0-1025-aws", arch: "amd64", family: "unix"
+[[1;36mDEBUG[m] Created new class realm maven.api
+[[1;36mDEBUG[m] Importing foreign packages into class realm maven.api
+[[1;36mDEBUG[m]   Imported: javax.annotation.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.annotation.security.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.enterprise.inject.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.enterprise.util.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.inject.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.artifact < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.classrealm < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.cli < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.configuration < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.exception < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.execution < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.execution.scope < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.lifecycle < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.model < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.monitor < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.plugin < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.profiles < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.project < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.reporting < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.rtinfo < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.settings < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.toolchain < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.usability < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.events < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.observers < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.resource < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.classworlds < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.component < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.configuration < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.container < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.context < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.logging < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.personality < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.artifact < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.collection < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.deployment < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.graph < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.impl < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.installation < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.metadata < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.resolution < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.spi < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.transfer < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.version < plexus.core
+[[1;36mDEBUG[m]   Imported: org.fusesource.jansi.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.event.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.helpers.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.spi.* < plexus.core
+[[1;36mDEBUG[m] Populating class realm maven.api
+[[1;34mINFO[m] Error stacktraces are turned on.
+[[1;36mDEBUG[m] Message scheme: color
+[[1;36mDEBUG[m] Message styles: [1;36mdebug[m [1;34minfo[m [1;33mwarning[m [1;31merror[m [1;32msuccess[m [1;31mfailure[m [1mstrong[m [32mmojo[m [36mproject[m
+[[1;36mDEBUG[m] Reading global settings from /usr/share/maven/conf/settings.xml
+[[1;36mDEBUG[m] Reading user settings from /home/ubuntu/.m2/settings.xml
+[[1;36mDEBUG[m] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[[1;36mDEBUG[m] Reading user toolchains from /home/ubuntu/.m2/toolchains.xml
+[[1;36mDEBUG[m] Using local repository at /home/ubuntu/.m2/repository
+[[1;36mDEBUG[m] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/ubuntu/.m2/repository
+[[1;34mINFO[m] Scanning for projects...
+[[1;36mDEBUG[m] Using mirror nexus (http://54.166.225.99:8081/repository/enomor-test/) for central (http://central).
+[[1;36mDEBUG[m] Extension realms for project com.example.maven-project:maven-project:pom:1.0-SNAPSHOT: (none)
+[[1;36mDEBUG[m] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[[1;36mDEBUG[m] Extension realms for project com.example.maven-project:server:jar:1.0-SNAPSHOT: (none)
+[[1;36mDEBUG[m] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[[1;36mDEBUG[m] Extension realms for project com.example.maven-project:webapp:war:1.0-SNAPSHOT: (none)
+[[1;36mDEBUG[m] Looking up lifecycle mappings for packaging war from ClassRealm[plexus.core, parent: null]
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.example.maven-project:server:jar:1.0-SNAPSHOT
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.example.maven-project:webapp:war:1.0-SNAPSHOT
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.example.maven-project:maven-project:pom:1.0-SNAPSHOT
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 55, column 24
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] The project com.example.maven-project:maven-project:pom:1.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Maven Project                                                      [pom]
+[[1;34mINFO[m] Server                                                             [jar]
+[[1;34mINFO[m] Webapp                                                             [war]
+[[1;36mDEBUG[m] === REACTOR BUILD PLAN ================================================
+[[1;36mDEBUG[m] Project: com.example.maven-project:maven-project:pom:1.0-SNAPSHOT
+[[1;36mDEBUG[m] Tasks:   [deploy]
+[[1;36mDEBUG[m] Style:   Regular
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Project: com.example.maven-project:server:jar:1.0-SNAPSHOT
+[[1;36mDEBUG[m] Tasks:   [deploy]
+[[1;36mDEBUG[m] Style:   Regular
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Project: com.example.maven-project:webapp:war:1.0-SNAPSHOT
+[[1;36mDEBUG[m] Tasks:   [deploy]
+[[1;36mDEBUG[m] Style:   Regular
+[[1;36mDEBUG[m] =======================================================================
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36mcom.example.maven-project:maven-project[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Maven Project 1.0-SNAPSHOT                                [1/3][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Using mirror nexus (http://54.166.225.99:8081/repository/enomor-test/) for apache.snapshots (http://repository.apache.org/snapshots).
+[[1;36mDEBUG[m] Using mirror nexus (http://54.166.225.99:8081/repository/enomor-test/) for central (https://repo.maven.apache.org/maven2).
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] === PROJECT BUILD PLAN ================================================
+[[1;36mDEBUG[m] Project:       com.example.maven-project:maven-project:1.0-SNAPSHOT
+[[1;36mDEBUG[m] Dependencies (collect): []
+[[1;36mDEBUG[m] Dependencies (resolve): []
+[[1;36mDEBUG[m] Repositories (dependencies): [nexus (http://54.166.225.99:8081/repository/enomor-test/, default, releases+snapshots)]
+[[1;36mDEBUG[m] Repositories (plugins)     : [nexus (http://54.166.225.99:8081/repository/enomor-test/, default, releases+snapshots)]
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <altDeploymentRepository>${altDeploymentRepository}</altDeploymentRepository>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <localRepository default-value="${localRepository}"/>
+  <offline default-value="${settings.offline}"/>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <retryFailedDeploymentCount default-value="1">${retryFailedDeploymentCount}</retryFailedDeploymentCount>
+  <skip default-value="false">${maven.deploy.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[[1;36mDEBUG[m] =======================================================================
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mmaven-project[0;1m ---[m
+[[1;36mDEBUG[m] Using mirror nexus (http://54.166.225.99:8081/repository/enomor-test/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[[1;36mDEBUG[m] Using mirror nexus (http://54.166.225.99:8081/repository/enomor-test/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[[1;36mDEBUG[m] Using mirror nexus (http://54.166.225.99:8081/repository/enomor-test/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[[1;36mDEBUG[m] Using mirror nexus (http://54.166.225.99:8081/repository/enomor-test/) for central (http://repo1.maven.org/maven2).
+[[1;36mDEBUG[m] Using mirror nexus (http://54.166.225.99:8081/repository/enomor-test/) for apache-snapshots (http://people.apache.org/maven-snapshot-repository).
+[[1;36mDEBUG[m] Using mirror nexus (http://54.166.225.99:8081/repository/enomor-test/) for codehaus-snapshots (http://snapshots.repository.codehaus.org).
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=854702, ConflictMarker.markTime=190382, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=692099, ConflictIdSorter.topsortTime=529958, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4990319, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=143529342, DefaultDependencyCollector.transformTime=9325969}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-project:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[[1;36mDEBUG[m]          junit:junit:jar:3.8.1:compile
+[[1;36mDEBUG[m]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-model:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-utils:jar:3.0.5:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[[1;36mDEBUG[m]   Included: junit:junit:jar:3.8.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.5
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@55054057]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[[1;36mDEBUG[m]   (f) artifact = com.example.maven-project:maven-project:pom:1.0-SNAPSHOT
+[[1;36mDEBUG[m]   (f) attachedArtifacts = []
+[[1;36mDEBUG[m]   (f) createChecksum = false
+[[1;36mDEBUG[m]   (f) localRepository =       id: local
+      url: file:///home/ubuntu/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[[1;36mDEBUG[m]   (f) packaging = pom
+[[1;36mDEBUG[m]   (f) pomFile = /home/ubuntu/java-app/pom.xml
+[[1;36mDEBUG[m]   (s) skip = false
+[[1;36mDEBUG[m]   (f) updateReleaseInfo = false
+[[1;36mDEBUG[m] -- end configuration --
+[[1;34mINFO[m] Installing /home/ubuntu/java-app/pom.xml to /home/ubuntu/.m2/repository/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-project-1.0-SNAPSHOT.pom
+[[1;36mDEBUG[m] Writing tracking file /home/ubuntu/.m2/repository/com/example/maven-project/maven-project/1.0-SNAPSHOT/_remote.repositories
+[[1;36mDEBUG[m] Installing com.example.maven-project:maven-project:1.0-SNAPSHOT/maven-metadata.xml to /home/ubuntu/.m2/repository/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-metadata-local.xml
+[[1;36mDEBUG[m] Installing com.example.maven-project:maven-project/maven-metadata.xml to /home/ubuntu/.m2/repository/com/example/maven-project/maven-project/maven-metadata-local.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.7:deploy[m [1m(default-deploy)[m @ [36mmaven-project[0;1m ---[m
+[[1;36mDEBUG[m] Using mirror nexus (http://54.166.225.99:8081/repository/enomor-test/) for apache.snapshots (http://people.apache.org/maven-snapshot-repository).
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=142806, ConflictMarker.markTime=128126, ConflictMarker.nodeCount=32, ConflictIdSorter.graphTime=64021, ConflictIdSorter.topsortTime=27571, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=709159, ConflictResolver.conflictItemCount=32, DefaultDependencyCollector.collectTime=12115353, DefaultDependencyCollector.transformTime=1107209}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+[[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-project:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[[1;36mDEBUG[m]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[[1;36mDEBUG[m]          junit:junit:jar:3.8.1:compile
+[[1;36mDEBUG[m]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-model:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-deploy-plugin:2.7
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-deploy-plugin:2.7
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-deploy-plugin:2.7
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+[[1;36mDEBUG[m]   Included: junit:junit:jar:3.8.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-deploy-plugin:2.7, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@55054057]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy' with basic configurator -->
+[[1;36mDEBUG[m]   (f) artifact = com.example.maven-project:maven-project:pom:1.0-SNAPSHOT
+[[1;36mDEBUG[m]   (f) attachedArtifacts = []
+[[1;36mDEBUG[m]   (s) localRepository =       id: local
+      url: file:///home/ubuntu/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[[1;36mDEBUG[m]   (f) offline = false
+[[1;36mDEBUG[m]   (f) packaging = pom
+[[1;36mDEBUG[m]   (f) pomFile = /home/ubuntu/java-app/pom.xml
+[[1;36mDEBUG[m]   (f) project = MavenProject: com.example.maven-project:maven-project:1.0-SNAPSHOT @ /home/ubuntu/java-app/pom.xml
+[[1;36mDEBUG[m]   (f) retryFailedDeploymentCount = 1
+[[1;36mDEBUG[m]   (f) skip = false
+[[1;36mDEBUG[m]   (f) updateReleaseInfo = false
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] Using transporter WagonTransporter with priority -1.0 for http://54.166.225.99:8081/repository/eno-snapshot/
+[[1;36mDEBUG[m] Using connector BasicRepositoryConnector with priority 0.0 for http://54.166.225.99:8081/repository/eno-snapshot/ with username=admin, password=***
+Downloading from nexus: http://54.166.225.99:8081/repository/eno-snapshot/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-metadata.xml
+[[1;36mDEBUG[m] Could not find metadata com.example.maven-project:maven-project:1.0-SNAPSHOT/maven-metadata.xml in nexus (http://54.166.225.99:8081/repository/eno-snapshot/)
+[[1;36mDEBUG[m] Writing tracking file /home/ubuntu/.m2/repository/com/example/maven-project/maven-project/1.0-SNAPSHOT/resolver-status.properties
+Uploading to nexus: http://54.166.225.99:8081/repository/eno-snapshot/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-project-1.0-20230605.004041-1.pom
+Progress (1): maven-project-1.0-20230605.004041-1.pom (4.1/6.2 kB)Progress (1): maven-project-1.0-20230605.004041-1.pom (6.2 kB)                                                                  [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Maven Project 1.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Maven Project ...................................... [1;31mFAILURE[m [  0.872 s]
+[[1;34mINFO[m] Server ............................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Webapp ............................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.027 s
+[[1;34mINFO[m] Finished at: 2023-06-05T00:40:41Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-deploy-plugin:2.7:deploy[m [1m(default-deploy)[m on project [36mmaven-project[m: [1;31mFailed to deploy artifacts: Could not transfer artifact com.example.maven-project:maven-project:pom:1.0-20230605.004041-1 from/to nexus (http://54.166.225.99:8081/repository/eno-snapshot/): Transfer failed for http://54.166.225.99:8081/repository/eno-snapshot/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-project-1.0-20230605.004041-1.pom 500 Server Error[m -> [1m[Help 1][m
+[1;31morg.apache.maven.lifecycle.LifecycleExecutionException[m: [1;31mFailed to execute goal [32morg.apache.maven.plugins:maven-deploy-plugin:2.7:deploy[m [1m(default-deploy)[m on project [36mmaven-project[m: [1;31mFailed to deploy artifacts: Could not transfer artifact com.example.maven-project:maven-project:pom:1.0-20230605.004041-1 from/to nexus (http://54.166.225.99:8081/repository/eno-snapshot/): Transfer failed for http://54.166.225.99:8081/repository/eno-snapshot/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-project-1.0-20230605.004041-1.pom 500 Server Error[m[m
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:215[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: org.apache.maven.plugin.MojoExecutionException: [1;31mFailed to deploy artifacts: Could not transfer artifact com.example.maven-project:maven-project:pom:1.0-20230605.004041-1 from/to nexus (http://54.166.225.99:8081/repository/eno-snapshot/): Transfer failed for http://54.166.225.99:8081/repository/eno-snapshot/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-project-1.0-20230605.004041-1.pom 500 Server Error[m
+    [1mat[m org.apache.maven.plugin.deploy.DeployMojo.execute ([1mDeployMojo.java:193[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: org.apache.maven.artifact.deployer.ArtifactDeploymentException: [1;31mFailed to deploy artifacts: Could not transfer artifact com.example.maven-project:maven-project:pom:1.0-20230605.004041-1 from/to nexus (http://54.166.225.99:8081/repository/eno-snapshot/): Transfer failed for http://54.166.225.99:8081/repository/eno-snapshot/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-project-1.0-20230605.004041-1.pom 500 Server Error[m
+    [1mat[m org.apache.maven.artifact.deployer.DefaultArtifactDeployer.deploy ([1mDefaultArtifactDeployer.java:146[m)
+    [1mat[m org.apache.maven.plugin.deploy.AbstractDeployMojo.deploy ([1mAbstractDeployMojo.java:167[m)
+    [1mat[m org.apache.maven.plugin.deploy.DeployMojo.execute ([1mDeployMojo.java:149[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: org.eclipse.aether.deployment.DeploymentException: [1;31mFailed to deploy artifacts: Could not transfer artifact com.example.maven-project:maven-project:pom:1.0-20230605.004041-1 from/to nexus (http://54.166.225.99:8081/repository/eno-snapshot/): Transfer failed for http://54.166.225.99:8081/repository/eno-snapshot/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-project-1.0-20230605.004041-1.pom 500 Server Error[m
+    [1mat[m org.eclipse.aether.internal.impl.DefaultDeployer.deploy ([1mDefaultDeployer.java:302[m)
+    [1mat[m org.eclipse.aether.internal.impl.DefaultDeployer.deploy ([1mDefaultDeployer.java:213[m)
+    [1mat[m org.eclipse.aether.internal.impl.DefaultRepositorySystem.deploy ([1mDefaultRepositorySystem.java:386[m)
+    [1mat[m org.apache.maven.artifact.deployer.DefaultArtifactDeployer.deploy ([1mDefaultArtifactDeployer.java:142[m)
+    [1mat[m org.apache.maven.plugin.deploy.AbstractDeployMojo.deploy ([1mAbstractDeployMojo.java:167[m)
+    [1mat[m org.apache.maven.plugin.deploy.DeployMojo.execute ([1mDeployMojo.java:149[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: org.eclipse.aether.transfer.ArtifactTransferException: [1;31mCould not transfer artifact com.example.maven-project:maven-project:pom:1.0-20230605.004041-1 from/to nexus (http://54.166.225.99:8081/repository/eno-snapshot/): Transfer failed for http://54.166.225.99:8081/repository/eno-snapshot/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-project-1.0-20230605.004041-1.pom 500 Server Error[m
+    [1mat[m org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed ([1mArtifactTransportListener.java:52[m)
+    [1mat[m org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run ([1mBasicRepositoryConnector.java:369[m)
+    [1mat[m org.eclipse.aether.connector.basic.BasicRepositoryConnector.put ([1mBasicRepositoryConnector.java:288[m)
+    [1mat[m org.eclipse.aether.internal.impl.DefaultDeployer.deploy ([1mDefaultDeployer.java:295[m)
+    [1mat[m org.eclipse.aether.internal.impl.DefaultDeployer.deploy ([1mDefaultDeployer.java:213[m)
+    [1mat[m org.eclipse.aether.internal.impl.DefaultRepositorySystem.deploy ([1mDefaultRepositorySystem.java:386[m)
+    [1mat[m org.apache.maven.artifact.deployer.DefaultArtifactDeployer.deploy ([1mDefaultArtifactDeployer.java:142[m)
+    [1mat[m org.apache.maven.plugin.deploy.AbstractDeployMojo.deploy ([1mAbstractDeployMojo.java:167[m)
+    [1mat[m org.apache.maven.plugin.deploy.DeployMojo.execute ([1mDeployMojo.java:149[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: org.apache.maven.wagon.TransferFailedException: [1;31mTransfer failed for http://54.166.225.99:8081/repository/eno-snapshot/com/example/maven-project/maven-project/1.0-SNAPSHOT/maven-project-1.0-20230605.004041-1.pom 500 Server Error[m
+    [1mat[m org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.put ([1mAbstractHttpClientWagon.java:820[m)
+    [1mat[m org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.put ([1mAbstractHttpClientWagon.java:737[m)
+    [1mat[m org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.put ([1mAbstractHttpClientWagon.java:709[m)
+    [1mat[m org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.put ([1mAbstractHttpClientWagon.java:703[m)
+    [1mat[m org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.put ([1mAbstractHttpClientWagon.java:683[m)
+    [1mat[m org.eclipse.aether.transport.wagon.WagonTransporter$PutTaskRunner.run ([1mWagonTransporter.java:686[m)
+    [1mat[m org.eclipse.aether.transport.wagon.WagonTransporter.execute ([1mWagonTransporter.java:435[m)
+    [1mat[m org.eclipse.aether.transport.wagon.WagonTransporter.put ([1mWagonTransporter.java:418[m)
+    [1mat[m org.eclipse.aether.connector.basic.BasicRepositoryConnector$PutTaskRunner.runTask ([1mBasicRepositoryConnector.java:556[m)
+    [1mat[m org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run ([1mBasicRepositoryConnector.java:364[m)
+    [1mat[m org.eclipse.aether.connector.basic.BasicRepositoryConnector.put ([1mBasicRepositoryConnector.java:288[m)
+    [1mat[m org.eclipse.aether.internal.impl.DefaultDeployer.deploy ([1mDefaultDeployer.java:295[m)
+    [1mat[m org.eclipse.aether.internal.impl.DefaultDeployer.deploy ([1mDefaultDeployer.java:213[m)
+    [1mat[m org.eclipse.aether.internal.impl.DefaultRepositorySystem.deploy ([1mDefaultRepositorySystem.java:386[m)
+    [1mat[m org.apache.maven.artifact.deployer.DefaultArtifactDeployer.deploy ([1mDefaultArtifactDeployer.java:142[m)
+    [1mat[m org.apache.maven.plugin.deploy.AbstractDeployMojo.deploy ([1mAbstractDeployMojo.java:167[m)
+    [1mat[m org.apache.maven.plugin.deploy.DeployMojo.execute ([1mDeployMojo.java:149[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[[1;31mERROR[m] 
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
